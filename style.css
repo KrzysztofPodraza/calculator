@@ -1,0 +1,32 @@
+.container{
+    width:16rem;
+    flex-direction: column;
+    border:1px solid gray;
+    border-radius:2rem;
+    padding:2px;
+    padding-right:8px;
+
+}
+.buttons_container{
+    width:16rem;
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    gap:2px;
+
+}
+.result_container{
+    display:flex;
+}
+.result{
+    padding:0;
+    margin:auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  margin-right:0.5rem;
+}
+button{
+    border-radius:50%;
+    width:4rem;
+    height:4rem;
+    border:0;
+}
